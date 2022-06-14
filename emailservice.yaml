@@ -15,11 +15,11 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: frontend
+  name: email
 spec:
   selector:
     matchLabels:
-      app: frontend
+      app: email
       
   template:
     metadata:
