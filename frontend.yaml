@@ -31,7 +31,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: harbor.coe.com/online-boutique-shop/frontend:v0.3.9
+          image: harbor.coe.com/online-boutique-shop/frontend:v0.3.6
           ports:
           - containerPort: 8080
           readinessProbe:
